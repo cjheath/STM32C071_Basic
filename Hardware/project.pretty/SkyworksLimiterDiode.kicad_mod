@@ -1,0 +1,132 @@
+(footprint "SkyworksLimiterDiode"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "D"
+		(at 0 1.4605 180)
+		(layer "F.SilkS")
+		(uuid "324afc9c-7020-47cd-a8c9-fa7e5c1946aa")
+		(effects
+			(font
+				(size 0.50038 0.29972)
+				(thickness 0.07493)
+			)
+		)
+	)
+	(property "Value" "SMP1330"
+		(at 0 -0.889 180)
+		(layer "F.Fab")
+		(uuid "0eb7d265-890c-4e79-b6eb-9e8ae9bd0d1c")
+		(effects
+			(font
+				(size 0.50038 0.29972)
+				(thickness 0.07493)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.skyworksinc.com/Products/Diodes/SMP1330-085LF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46eb4462-d56a-418a-890e-06fb6f4737cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PIN Limiter diode"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcca1cbc-adf2-499f-81c5-61a1f1aa8aea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_paste_margin_ratio -0.02)
+	(attr smd)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "738eb387-1041-4f69-911c-7a33f1af0a70")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7f6a4fa-a345-4760-a41f-1fa09d15b0e3")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2add19aa-4888-4080-bb49-6738c1bded41")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1778)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff53fd57-27a8-47d5-b299-1ebded7ef2fe")
+	)
+	(pad "1" smd rect
+		(at 0.875 0)
+		(size 0.55 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "608e8d22-347e-452c-834f-9810e7e4923c")
+	)
+	(pad "2" smd custom
+		(at 0 -0.1)
+		(size 0.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.1125 0.7875) (xy 0.05 0.8625) (xy 0.05 0.9375) (xy -0.2375 0.9375) (xy -0.2375 0.75625) (xy 0.175 0.75625)
+				)
+				(width 0.025)
+				(fill yes)
+			)
+			(gr_arc
+				(start 0.05 0.925)
+				(mid 0.101256 0.801256)
+				(end 0.225 0.75)
+				(width 0.05)
+			)
+		)
+		(uuid "fdda3f17-f2a3-47ce-9574-7abe3a752757")
+	)
+	(pad "3" smd rect
+		(at -0.875 0)
+		(size 0.55 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "580df1c6-803d-40ac-9bb1-7d6f3e9307b3")
+	)
+	(embedded_fonts no)
+)

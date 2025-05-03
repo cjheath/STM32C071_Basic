@@ -1,4 +1,6 @@
 \#auto_saved_files\#
+_autosave-*
 *.lck
 *-backups/
 .*.swp
+*.bak

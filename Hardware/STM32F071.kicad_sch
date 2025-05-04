@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "project:USB-C_SMD-TYPE-C-31-M-12"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -86,28 +86,6 @@
 					)
 				)
 				(rectangle
-					(start 9.144 -11.176)
-					(end 10.16 -11.684)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 9.144 -13.716)
-					(end 10.16 -14.224)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start 10.16 15.494)
 					(end 9.144 14.986)
 					(stroke
@@ -154,6 +132,28 @@
 				(rectangle
 					(start 10.16 -4.826)
 					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -9.906)
+					(end 9.144 -10.414)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
 					(stroke
 						(width 0)
 						(type default)
@@ -606,7 +606,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -11.43 180)
+					(at 15.24 -10.16 180)
 					(length 5.08)
 					(name "CC1"
 						(effects
@@ -624,7 +624,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -13.97 180)
+					(at 15.24 -12.7 180)
 					(length 5.08)
 					(name "CC2"
 						(effects
@@ -2386,7 +2386,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 114.3) (xy 63.5 110.49)
+			(xy 63.5 114.3) (xy 63.5 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2506,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 114.3) (xy 58.42 113.03)
+			(xy 58.42 114.3) (xy 58.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2526,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 110.49) (xy 63.5 110.49)
+			(xy 55.88 109.22) (xy 63.5 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2536,7 +2536,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 113.03) (xy 58.42 113.03)
+			(xy 55.88 111.76) (xy 58.42 111.76)
 		)
 		(stroke
 			(width 0)

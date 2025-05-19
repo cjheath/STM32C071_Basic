@@ -1,0 +1,4 @@
+../Drivers/lowlevel/ICs/AD9959/AD9959.c:15:13:AD9959_WriteRaw	1
+../Drivers/lowlevel/ICs/AD9959/AD9959.c:28:6:AD9959_Init	1
+../Drivers/lowlevel/ICs/AD9959/AD9959.c:34:6:AD9959_WriteReg	2
+../Drivers/lowlevel/ICs/AD9959/AD9959.c:39:6:AD9959_SetFreq	2

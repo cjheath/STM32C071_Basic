@@ -1,0 +1,2 @@
+../Drivers/lowlevel/ICs/MAX5712/MAX5712.c:11:6:MAX5712_Init	8	static
+../Drivers/lowlevel/ICs/MAX5712/MAX5712.c:17:6:MAX5712_SetValue	32	static

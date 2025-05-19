@@ -1,0 +1,6 @@
+../Drivers/lowlevel/ICs/RFFC5071/RFFC5071.c:13:17:pack_write	1
+../Drivers/lowlevel/ICs/RFFC5071/RFFC5071.c:18:17:pack_read	1
+../Drivers/lowlevel/ICs/RFFC5071/RFFC5071.c:22:6:RFFC5071_Init	1
+../Drivers/lowlevel/ICs/RFFC5071/RFFC5071.c:30:6:RFFC5071_WriteReg	1
+../Drivers/lowlevel/ICs/RFFC5071/RFFC5071.c:39:10:RFFC5071_ReadReg	1
+../Drivers/lowlevel/ICs/RFFC5071/RFFC5071.c:49:6:RFFC5071_SetLO	1

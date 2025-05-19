@@ -1,0 +1,9 @@
+../Drivers/lowlevel/SPI/SPI.c:21:6:SPI_LowLevel_Init	1
+../Drivers/lowlevel/SPI/SPI.c:53:6:SPI_CS_Enable	1
+../Drivers/lowlevel/SPI/SPI.c:57:6:SPI_CS_Disable	1
+../Drivers/lowlevel/SPI/SPI.c:61:6:SPI_TransmitByte	3
+../Drivers/lowlevel/SPI/SPI.c:68:9:SPI_ReceiveByte	2
+../Drivers/lowlevel/SPI/SPI.c:74:6:SPI_Transmit16	1
+../Drivers/lowlevel/SPI/SPI.c:79:10:SPI_Receive16	1
+../Drivers/lowlevel/SPI/SPI.c:85:6:SPI_Transmit24	1
+../Drivers/lowlevel/SPI/SPI.c:91:10:SPI_Receive24	1

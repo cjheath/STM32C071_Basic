@@ -1,0 +1,3 @@
+../Drivers/lowlevel/USART/USART.c:14:6:USARTx_LowLevel_Init	1
+../Drivers/lowlevel/USART/USART.c:41:8:USARTx_SendByte	3
+../Drivers/lowlevel/USART/USART.c:52:6:USARTx_RecvByte	2

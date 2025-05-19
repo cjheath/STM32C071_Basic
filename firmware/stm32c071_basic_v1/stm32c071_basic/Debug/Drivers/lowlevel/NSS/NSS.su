@@ -1,0 +1,11 @@
+../Drivers/lowlevel/NSS/NSS.c:10:6:NSS_LowLevel_Init	8	static
+../Drivers/lowlevel/NSS/NSS.c:25:6:MAX5712_Select	8	static
+../Drivers/lowlevel/NSS/NSS.c:26:6:MAX5712_Deselect	8	static
+../Drivers/lowlevel/NSS/NSS.c:28:6:AD9834_Select	8	static
+../Drivers/lowlevel/NSS/NSS.c:29:6:AD9834_Deselect	8	static
+../Drivers/lowlevel/NSS/NSS.c:31:6:ADF4351_Select	8	static
+../Drivers/lowlevel/NSS/NSS.c:32:6:ADF4351_Deselect	8	static
+../Drivers/lowlevel/NSS/NSS.c:34:6:AD9959_Select	8	static
+../Drivers/lowlevel/NSS/NSS.c:35:6:AD9959_Deselect	8	static
+../Drivers/lowlevel/NSS/NSS.c:37:6:RFFC5071_Select	8	static
+../Drivers/lowlevel/NSS/NSS.c:38:6:RFFC5071_Deselect	8	static

@@ -1,0 +1,5 @@
+../Drivers/lowlevel/I2C/I2C.c:13:6:I2C_LowLevel_Init	8	static
+../Drivers/lowlevel/I2C/I2C.c:30:6:I2C_Start	16	static
+../Drivers/lowlevel/I2C/I2C.c:42:6:I2C_Write	16	static
+../Drivers/lowlevel/I2C/I2C.c:48:9:I2C_Read	16	static
+../Drivers/lowlevel/I2C/I2C.c:58:6:I2C_Stop	8	static

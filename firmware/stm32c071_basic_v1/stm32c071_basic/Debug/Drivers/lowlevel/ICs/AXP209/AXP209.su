@@ -1,0 +1,3 @@
+../Drivers/lowlevel/ICs/AXP209/AXP209.c:10:6:AXP209_Init	8	static
+../Drivers/lowlevel/ICs/AXP209/AXP209.c:15:6:AXP209_WriteReg	16	static
+../Drivers/lowlevel/ICs/AXP209/AXP209.c:24:6:AXP209_ReadReg	16	static

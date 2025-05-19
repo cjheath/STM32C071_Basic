@@ -1,0 +1,5 @@
+../Drivers/lowlevel/ICs/SI5351/SI5351.c:17:13:SI_WriteReg	16	static
+../Drivers/lowlevel/ICs/SI5351/SI5351.c:25:6:SI5351_Init	16	static
+../Drivers/lowlevel/ICs/SI5351/SI5351.c:41:6:SI5351_SetFreq	24	static
+../Drivers/lowlevel/ICs/SI5351/SI5351.c:49:6:SI5351_EnableOutput	24	static
+../Drivers/lowlevel/ICs/SI5351/SI5351.c:60:6:SI5351_ReadReg	16	static

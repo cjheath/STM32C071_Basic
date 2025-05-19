@@ -1,0 +1,7 @@
+../Drivers/lowlevel/ICs/AD9834/AD9834.c:15:6:AD9834_Delay	2
+../Drivers/lowlevel/ICs/AD9834/AD9834.c:19:6:AD9834_Init	1
+../Drivers/lowlevel/ICs/AD9834/AD9834.c:32:6:AD9834_WriteRegister	5
+../Drivers/lowlevel/ICs/AD9834/AD9834.c:53:6:AD9834_SetFrequency	1
+../Drivers/lowlevel/ICs/AD9834/AD9834.c:66:6:AD9834_SetSineWave	1
+../Drivers/lowlevel/ICs/AD9834/AD9834.c:70:6:AD9834_SetSquareWave	1
+../Drivers/lowlevel/ICs/AD9834/AD9834.c:74:6:AD9834_SetTriangleWave	1

@@ -1,0 +1,4 @@
+../Drivers/lowlevel/ICs/ADF4351/ADF4351.c:12:17:pack_reg	16	static
+../Drivers/lowlevel/ICs/ADF4351/ADF4351.c:17:6:ADF4351_Init	8	static
+../Drivers/lowlevel/ICs/ADF4351/ADF4351.c:24:6:ADF4351_WriteReg	24	static
+../Drivers/lowlevel/ICs/ADF4351/ADF4351.c:37:6:ADF4351_SetFreq	24	static

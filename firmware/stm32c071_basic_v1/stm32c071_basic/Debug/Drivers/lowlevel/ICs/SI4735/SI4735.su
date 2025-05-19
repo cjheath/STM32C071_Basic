@@ -1,0 +1,4 @@
+../Drivers/lowlevel/ICs/SI4735/SI4735.c:12:6:SI4735_PowerUpFM	8	static
+../Drivers/lowlevel/ICs/SI4735/SI4735.c:26:6:SI4735_PowerDown	8	static
+../Drivers/lowlevel/ICs/SI4735/SI4735.c:34:6:SI4735_TuneFM	16	static
+../Drivers/lowlevel/ICs/SI4735/SI4735.c:52:6:SI4735_GetStatus	32	static

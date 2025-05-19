@@ -1,0 +1,5 @@
+../Drivers/lowlevel/I2C/I2C.c:13:6:I2C_LowLevel_Init	1
+../Drivers/lowlevel/I2C/I2C.c:30:6:I2C_Start	5
+../Drivers/lowlevel/I2C/I2C.c:42:6:I2C_Write	2
+../Drivers/lowlevel/I2C/I2C.c:48:9:I2C_Read	3
+../Drivers/lowlevel/I2C/I2C.c:58:6:I2C_Stop	2

@@ -1,0 +1,2 @@
+../Drivers/lowlevel/Delay/Delay.c:17:6:delay_init	1
+../Drivers/lowlevel/Delay/Delay.c:28:6:delay_ms	2

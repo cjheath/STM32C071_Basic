@@ -1,0 +1,6 @@
+../Drivers/lowlevel/ICs/RFFC5071/RFFC5071.c:13:17:pack_write	16	static
+../Drivers/lowlevel/ICs/RFFC5071/RFFC5071.c:18:17:pack_read	16	static
+../Drivers/lowlevel/ICs/RFFC5071/RFFC5071.c:22:6:RFFC5071_Init	8	static
+../Drivers/lowlevel/ICs/RFFC5071/RFFC5071.c:30:6:RFFC5071_WriteReg	32	static
+../Drivers/lowlevel/ICs/RFFC5071/RFFC5071.c:39:10:RFFC5071_ReadReg	32	static
+../Drivers/lowlevel/ICs/RFFC5071/RFFC5071.c:49:6:RFFC5071_SetLO	24	static

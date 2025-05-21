@@ -1232,8 +1232,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0.635 5.715 0)
+			(property "Reference" "U2"
+				(at 1.6511 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1242,7 +1242,7 @@
 				)
 			)
 			(property "Value" "USBLC6-2P6"
-				(at 0.635 3.81 0)
+				(at 1.6511 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1272,6 +1272,15 @@
 				)
 			)
 			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C15999"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1564,14 +1573,14 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "I/O1"
+					(name "I/O2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1582,14 +1591,14 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 2.54)
-					(name "I/O2"
+					(name "I/O1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1636,14 +1645,14 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "I/O1"
+					(name "I/O2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1654,14 +1663,14 @@
 				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "I/O2"
+					(name "I/O1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3920,7 +3929,13 @@
 		)
 	)
 	(junction
-		(at 92.71 31.75)
+		(at 101.6 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11fa5da5-069c-4486-9b04-a5b26bbe665d")
+	)
+	(junction
+		(at 101.6 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1246e4fc-caf5-4301-ad94-d4cfdff9cf35")
@@ -3938,7 +3953,7 @@
 		(uuid "1c4ee47d-9e0a-419d-b8d2-777cc46af2a5")
 	)
 	(junction
-		(at 110.49 31.75)
+		(at 116.84 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2082c270-dcd4-4dd6-b3f0-a0c5b64afc64")
@@ -3948,6 +3963,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36af6ed4-a3a4-49af-8e00-d2177a0a980d")
+	)
+	(junction
+		(at 92.71 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58077717-a686-46ca-ad47-9cc6981d4c4d")
 	)
 	(junction
 		(at 48.26 64.77)
@@ -3980,7 +4001,7 @@
 		(uuid "af71dae0-d585-45ff-8f1b-7ce8ae90648d")
 	)
 	(junction
-		(at 110.49 44.45)
+		(at 116.84 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be6ada0b-d307-402a-b0ff-b69c7a1478d6")
@@ -4079,6 +4100,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 43.18) (xy 92.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fa8422-485a-49db-8180-bc1c3e5d4170")
+	)
+	(wire
+		(pts
 			(xy 66.04 144.78) (xy 66.04 148.59)
 		)
 		(stroke
@@ -4169,7 +4200,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 44.45) (xy 110.49 43.18)
+			(xy 116.84 44.45) (xy 116.84 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4186,16 +4217,6 @@
 			(type default)
 		)
 		(uuid "5b4f8f46-eb5e-47bd-98f9-8587cb065bd0")
-	)
-	(wire
-		(pts
-			(xy 90.17 31.75) (xy 92.71 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b9fb566-8122-4a8f-b9c7-34caf5e42817")
 	)
 	(wire
 		(pts
@@ -4229,7 +4250,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 31.75) (xy 110.49 31.75)
+			(xy 101.6 31.75) (xy 116.84 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4259,6 +4280,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 31.75) (xy 92.71 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b1bedb-9e13-46e4-8f5d-3ea834b17ccb")
+	)
+	(wire
+		(pts
 			(xy 58.42 123.19) (xy 69.85 123.19)
 		)
 		(stroke
@@ -4279,7 +4310,27 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 29.21) (xy 110.49 31.75)
+			(xy 90.17 31.75) (xy 92.71 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71f0fe80-8ce9-4f78-af5c-e5c01f88df39")
+	)
+	(wire
+		(pts
+			(xy 101.6 44.45) (xy 92.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f3493a-65e6-422e-9681-c2aea0eb636b")
+	)
+	(wire
+		(pts
+			(xy 116.84 29.21) (xy 116.84 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4309,6 +4360,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 44.45) (xy 104.14 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778b5e0a-e5c9-4026-93cd-36442df102c5")
+	)
+	(wire
+		(pts
 			(xy 27.94 26.67) (xy 27.94 31.75)
 		)
 		(stroke
@@ -4329,7 +4390,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 34.29) (xy 92.71 31.75)
+			(xy 92.71 31.75) (xy 101.6 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aaa56e2-42de-4285-88e0-997d47c076e1")
+	)
+	(wire
+		(pts
+			(xy 101.6 34.29) (xy 101.6 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4359,17 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 44.45) (xy 97.79 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8618dcd9-a88b-4505-bbb3-2820d5fac410")
-	)
-	(wire
-		(pts
-			(xy 110.49 33.02) (xy 110.49 31.75)
+			(xy 116.84 33.02) (xy 116.84 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4429,7 +4490,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 52.07) (xy 110.49 52.07)
+			(xy 74.93 52.07) (xy 116.84 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4439,7 +4500,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 52.07) (xy 110.49 44.45)
+			(xy 116.84 52.07) (xy 116.84 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4459,7 +4520,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 44.45) (xy 110.49 44.45)
+			(xy 114.3 44.45) (xy 116.84 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4529,7 +4590,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 44.45) (xy 92.71 41.91)
+			(xy 101.6 44.45) (xy 101.6 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4649,6 +4710,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 31.75) (xy 116.84 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78a9793-069b-4f66-89f4-0b5a5d19638b")
+	)
+	(wire
+		(pts
 			(xy 27.94 44.45) (xy 27.94 52.07)
 		)
 		(stroke
@@ -4765,7 +4836,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 110.49 29.21 0)
+		(at 116.84 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4774,7 +4845,7 @@
 		(fields_autoplaced yes)
 		(uuid "01073db9-d877-4bd3-a082-9e6af9d9a746")
 		(property "Reference" "#PWR013"
-			(at 110.49 33.02 0)
+			(at 116.84 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,7 +4854,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 110.49 24.13 0)
+			(at 116.84 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +4862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 29.21 0)
+			(at 116.84 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,7 +4871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 29.21 0)
+			(at 116.84 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,7 +4880,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 110.49 29.21 0)
+			(at 116.84 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,6 +5586,93 @@
 		)
 	)
 	(symbol
+		(lib_id "jlcbasic:10uF-1206")
+		(at 92.71 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4520109b-e808-41ba-a416-3b4cce1b29cd")
+		(property "Reference" "C5"
+			(at 93.472 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 93.218 40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "jlcbasic:C1206"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31A106KBHNNNE_10uF-106-10-50V_C13585.html"
+			(at 92.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 10uF X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 92.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C13585"
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "CL31A106KBHNNNE"
+			(at 92.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c47200d-5b4d-45b0-a693-af4fa2edb1d9")
+		)
+		(pin "1"
+			(uuid "3de543c0-4cc8-4a6c-856e-f4d5b323fb49")
+		)
+		(instances
+			(project "STM32F071"
+				(path "/fd97ec36-1277-4a75-9a65-2e287f9d3350"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "jlcbasic:22kΩ-0805")
 		(at 67.31 48.26 90)
 		(mirror x)
@@ -5838,7 +5996,7 @@
 				)
 			)
 		)
-		(property "Value" "22uH"
+		(property "Value" "100uH"
 			(at 86.36 27.94 90)
 			(effects
 				(font
@@ -5846,7 +6004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "project:IND-SMD_L4.0-W4.0_SMNR4030"
 			(at 86.36 31.75 0)
 			(effects
 				(font
@@ -5855,7 +6013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_SXN-Shun-Xiang-Nuo-Elec-SMNR4030-101MT_C135278.html?s_z=n_inductor"
 			(at 86.36 31.75 0)
 			(effects
 				(font
@@ -5864,8 +6022,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core"
+		(property "Description" "600mA 100uH Shielded Power Inductor ±20% 600mA SMD,4x4mm Power Inductors ROHS"
 			(at 86.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "SMNR4030-101MT"
+			(at 86.36 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C135278"
+			(at 86.36 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,16 +6066,15 @@
 	)
 	(symbol
 		(lib_id "jlcbasic:100uF-Tantalum")
-		(at 92.71 38.1 0)
+		(at 101.6 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a182ce87-7283-4ced-a21b-fd94c41a1367")
 		(property "Reference" "C2"
-			(at 96.52 36.1949 0)
+			(at 102.362 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5908,7 +6083,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 96.52 38.7349 0)
+			(at 102.108 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +6092,7 @@
 			)
 		)
 		(property "Footprint" "jlcbasic:CASE-B_3528"
-			(at 92.71 42.926 0)
+			(at 101.6 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,7 +6101,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJB107K006RNJ_100uF-107-10-6-3V_C16133.html"
-			(at 92.71 27.94 0)
+			(at 101.6 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +6110,7 @@
 			)
 		)
 		(property "Description" "100uF 6.3V 1.7Ω@100kHz ±10% CASE-B-3528-21(mm) Tantalum Capacitors ROHS"
-			(at 92.456 33.02 0)
+			(at 101.346 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +6119,7 @@
 			)
 		)
 		(property "LCSC Part" "C16133"
-			(at 92.71 44.704 0)
+			(at 101.6 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +6128,7 @@
 			)
 		)
 		(property "PartNumber" "TAJB107K006RNJ"
-			(at 92.71 38.1 0)
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +6153,7 @@
 	)
 	(symbol
 		(lib_id "jlcbasic:2.7kΩ-0805")
-		(at 102.87 44.45 0)
+		(at 109.22 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5986,7 +6161,7 @@
 		(dnp no)
 		(uuid "a401eb2e-92ab-47da-a985-09304ec092e8")
 		(property "Reference" "R3"
-			(at 101.854 42.418 0)
+			(at 108.204 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +6169,7 @@
 			)
 		)
 		(property "Value" "2.7kΩ"
-			(at 102.87 46.99 0)
+			(at 109.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +6177,7 @@
 			)
 		)
 		(property "Footprint" "jlcbasic:R0805"
-			(at 102.87 52.07 0)
+			(at 109.22 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +6186,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-7KR-2701-1_C17530.html"
-			(at 102.87 44.45 0)
+			(at 109.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +6195,7 @@
 			)
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 2.7kΩ 0805 Chip Resistor - Surface Mount ROHS"
-			(at 102.87 44.45 0)
+			(at 109.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,7 +6204,7 @@
 			)
 		)
 		(property "LCSC Part" "C17530"
-			(at 102.87 57.15 0)
+			(at 109.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +6213,7 @@
 			)
 		)
 		(property "PartNumber" "0805W8F2701T5E"
-			(at 102.87 44.45 0)
+			(at 109.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6435,7 @@
 	)
 	(symbol
 		(lib_id "jlcbasic:4.7kΩ-0805")
-		(at 110.49 38.1 90)
+		(at 116.84 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6269,7 +6444,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd3e18a4-0e34-43dd-9f7f-52afa9d58c8e")
 		(property "Reference" "R4"
-			(at 113.03 36.8299 90)
+			(at 119.38 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6453,7 @@
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 113.03 39.3699 90)
+			(at 119.38 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +6462,7 @@
 			)
 		)
 		(property "Footprint" "jlcbasic:R0805"
-			(at 118.11 38.1 0)
+			(at 124.46 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +6471,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_4-7KR-4701-1_C17673.html"
-			(at 110.49 38.1 0)
+			(at 116.84 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +6480,7 @@
 			)
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 4.7kΩ 0805 Chip Resistor - Surface Mount ROHS"
-			(at 110.49 38.1 0)
+			(at 116.84 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6489,7 @@
 			)
 		)
 		(property "LCSC Part" "C17673"
-			(at 123.19 38.1 0)
+			(at 129.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +6498,7 @@
 			)
 		)
 		(property "PartNumber" "0805W8F4701T5E"
-			(at 110.49 38.1 0)
+			(at 116.84 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,15 +6752,15 @@
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2P6")
 		(at 74.93 120.65 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "daf28170-043c-4204-afe8-10cab07d4af2")
 		(property "Reference" "U2"
-			(at 76.5811 113.03 0)
+			(at 73.2789 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +6769,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2P6"
-			(at 76.5811 115.57 0)
+			(at 73.2789 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6603,7 +6778,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 75.946 127.381 0)
+			(at 73.914 127.381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6789,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 75.946 129.286 0)
+			(at 73.914 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -325,7 +325,7 @@
 		(uuid "cb98cabb-38ac-40af-b66b-1f2e4eaaa524")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C-SMD_TYPE-C-USB-17.wrl"
+	(model "${KIPRJMOD}/project.3dshapes/USB4105-GF-A--3DModel-STEP-56544.STEP"
 		(offset
 			(xyz -0 -1.15 1.2)
 		)
@@ -333,7 +333,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

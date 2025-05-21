@@ -4826,7 +4826,7 @@
 			(uuid "048c2c2b-a9bb-4f22-8285-f841791aa7c1")
 		)
 		(instances
-			(project "STM32F071"
+			(project "STM32C071"
 				(path "/fd97ec36-1277-4a75-9a65-2e287f9d3350"
 					(reference "#PWR014")
 					(unit 1)
@@ -5110,7 +5110,7 @@
 			(uuid "c09bfa04-d3a0-4038-9bfc-672dd7c544af")
 		)
 		(instances
-			(project "STM32F071"
+			(project "STM32C071"
 				(path "/fd97ec36-1277-4a75-9a65-2e287f9d3350"
 					(reference "#PWR012")
 					(unit 1)
@@ -5511,7 +5511,7 @@
 			(uuid "16fb00f2-c904-47c7-9b33-814b3b4e5bd7")
 		)
 		(instances
-			(project "STM32F071"
+			(project "STM32C071"
 				(path "/fd97ec36-1277-4a75-9a65-2e287f9d3350"
 					(reference "R2")
 					(unit 1)
@@ -5664,7 +5664,7 @@
 			(uuid "3de543c0-4cc8-4a6c-856e-f4d5b323fb49")
 		)
 		(instances
-			(project "STM32F071"
+			(project "STM32C071"
 				(path "/fd97ec36-1277-4a75-9a65-2e287f9d3350"
 					(reference "C5")
 					(unit 1)
@@ -5751,7 +5751,7 @@
 			(uuid "910b7585-3ca8-4ff2-979b-00aefe0bf641")
 		)
 		(instances
-			(project "STM32F071"
+			(project "STM32C071"
 				(path "/fd97ec36-1277-4a75-9a65-2e287f9d3350"
 					(reference "R5")
 					(unit 1)
@@ -5817,7 +5817,7 @@
 			(uuid "0ec10c2e-4b59-442f-8979-d3cc37d971fd")
 		)
 		(instances
-			(project "STM32F071"
+			(project "STM32C071"
 				(path "/fd97ec36-1277-4a75-9a65-2e287f9d3350"
 					(reference "#PWR09")
 					(unit 1)
@@ -6293,7 +6293,7 @@
 			(uuid "6f6cf809-c230-4b59-9228-22255e4270b1")
 		)
 		(instances
-			(project "STM32F071"
+			(project "STM32C071"
 				(path "/fd97ec36-1277-4a75-9a65-2e287f9d3350"
 					(reference "#PWR010")
 					(unit 1)
@@ -6359,7 +6359,7 @@
 			(uuid "c58cd101-1dcf-4120-aaa1-f336a1f77f05")
 		)
 		(instances
-			(project "STM32F071"
+			(project "STM32C071"
 				(path "/fd97ec36-1277-4a75-9a65-2e287f9d3350"
 					(reference "#PWR07")
 					(unit 1)
@@ -6425,7 +6425,7 @@
 			(uuid "bf8d0320-65c6-46ef-aab4-508eaf1079a1")
 		)
 		(instances
-			(project "STM32F071"
+			(project "STM32C071"
 				(path "/fd97ec36-1277-4a75-9a65-2e287f9d3350"
 					(reference "#PWR06")
 					(unit 1)
@@ -7075,7 +7075,7 @@
 			(uuid "2a2c23cb-ec21-443d-9618-6bca9cd470d0")
 		)
 		(instances
-			(project "STM32F071"
+			(project "STM32C071"
 				(path "/fd97ec36-1277-4a75-9a65-2e287f9d3350"
 					(reference "C4")
 					(unit 1)

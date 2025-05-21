@@ -1,6 +1,6 @@
 # STM32C071_Basic
 
-A template project for STM32 projects using the STM32C071 48-pin QFP, with USB and SWD.
+A template project for STM32 projects using the STM32C071 32-pin QFP, with USB and SWD.
 
 ## Goals and Status
 

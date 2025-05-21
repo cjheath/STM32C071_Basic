@@ -466,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "STM32F071.kicad_pro",
+    "filename": "STM32C071.kicad_pro",
     "version": 3
   },
   "net_settings": {

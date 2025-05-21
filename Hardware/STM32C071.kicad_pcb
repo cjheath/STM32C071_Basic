@@ -202,7 +202,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/919e1c67-4790-48cd-8437-de9d8e99478e")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.8 2)
@@ -333,7 +333,7 @@
 		(property ki_fp_filters "LQFP*7x7mm*P0.8mm*")
 		(path "/2fcaa36f-eb73-4f7d-8d98-50efe27cfc65")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.61 3.61)
@@ -1141,7 +1141,7 @@
 		)
 		(path "/a401eb2e-92ab-47da-a985-09304ec092e8")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.76 -0.92)
@@ -1336,7 +1336,7 @@
 		)
 		(path "/bd3e18a4-0e34-43dd-9f7f-52afa9d58c8e")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.76 0.92)
@@ -1531,7 +1531,7 @@
 		)
 		(path "/7135a097-73b6-4831-8ed0-b3b190d18c53")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.93 1.09)
@@ -1770,7 +1770,7 @@
 		)
 		(path "/4520109b-e808-41ba-a416-3b4cce1b29cd")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.93 1.09)
@@ -2009,7 +2009,7 @@
 		)
 		(path "/efc0bb6a-690d-422b-be3b-0d3ff131cf99")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.76 0.92)
@@ -2204,7 +2204,7 @@
 		)
 		(path "/3c7e44ac-3e7b-4c58-aad7-1010e7f4d724")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.76 -0.92)
@@ -2399,7 +2399,7 @@
 		)
 		(path "/a182ce87-7283-4ced-a21b-fd94c41a1367")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.83 -1.48)
@@ -2582,7 +2582,7 @@
 		)
 		(path "/4cf18267-7571-4f24-bb2f-84bf47b94784")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.76 -0.92)
@@ -2777,7 +2777,7 @@
 		)
 		(path "/1fe8d2c7-6687-4e28-92b3-2bf49309a9fc")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.6 -1.43)
@@ -2962,7 +2962,7 @@
 		)
 		(path "/f5b7bac4-c42f-4e9e-a5ab-a49aa655d336")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.93 1.09)
@@ -3189,7 +3189,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/c4247a39-2e14-4cba-a2ca-db19a2066de1")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.47 5.02)
@@ -3590,7 +3590,7 @@
 		(property ki_fp_filters "SOT?666*")
 		(path "/daf28170-043c-4204-afe8-10cab07d4af2")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.65 0.99)
@@ -3888,7 +3888,7 @@
 		)
 		(path "/beca9ef9-e321-42f3-8d6d-1ff84c7eb4e2")
 		(sheetname "/")
-		(sheetfile "STM32F071.kicad_sch")
+		(sheetfile "STM32C071.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.5 -1.5)

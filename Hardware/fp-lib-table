@@ -1,6 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "project")(type "KiCad")(uri "${KIPRJMOD}/project.pretty")(options "")(descr ""))
-  (lib (name "jlcbasic")(type "KiCad")(uri "${KIPRJMOD}/../libraries/jlcbasic/jlcbasic.pretty")(options "")(descr ""))
-  (lib (name "jlcpreferred")(type "KiCad")(uri "${KIPRJMOD}/../libraries/jlcpreferred/jlcpreferred.pretty")(options "")(descr ""))
+  (lib (name "jlcbasic")(type "KiCad")(uri "${KIPRJMOD}/libraries/jlcbasic/jlcbasic.pretty")(options "")(descr ""))
+  (lib (name "jlcpreferred")(type "KiCad")(uri "${KIPRJMOD}/libraries/jlcpreferred/jlcpreferred.pretty")(options "")(descr ""))
 )

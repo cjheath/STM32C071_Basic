@@ -4,3 +4,4 @@ _autosave-*
 *-backups/
 .*.swp
 *.bak
+*-cache

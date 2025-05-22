@@ -15,9 +15,9 @@ The following aspects are (to be) provided:
 
 * Configuration
   - STM32CubeMX pin-configuration file you should edit for your required I/O configuration
-* Hardware (incomplete)
-  - KiCad schematic and 2-layer PCB containing the STM32, USB and SWD connectors, and optional crystal
-  - 3.3V Buck switcher from VBUS up to 20V (USB-PD)
+* Hardware
+  - KiCad schematic and 2-layer PCB containing the STM32, USB and SWD connectors
+  - 3.3V Buck switcher from VBUS up to 20V (in case you use USB-PD)
   - KiCad project-local library of symbols, footprints and 3D models
   - LCSC ordering codes on all parts, to facilitate ordering on JLCPCB
 * Firmware (incomplete)
@@ -31,4 +31,5 @@ This template is still incomplete. Use at own risk
 
 ## How to use this template
 
-TBD
+View the README file in the Hardare directory. You may explore alternative MCU pin configurations
+using either Kicad or by opening Configuration/STM32C071_Basic.ioc using STM32CubeMX.

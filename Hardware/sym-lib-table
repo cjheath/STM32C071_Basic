@@ -1,6 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "project")(type "KiCad")(uri "${KIPRJMOD}/project.kicad_sym")(options "")(descr ""))
-  (lib (name "jlcbasic")(type "KiCad")(uri "${KIPRJMOD}/../libraries/jlcbasic/jlcbasic.kicad_sym")(options "")(descr ""))
-  (lib (name "jlcpreferred")(type "KiCad")(uri "${KIPRJMOD}/../libraries/jlcpreferred/jlcpreferred.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcbasic")(type "KiCad")(uri "${KIPRJMOD}/libraries/jlcbasic/jlcbasic.kicad_sym")(options "")(descr ""))
+  (lib (name "jlcpreferred")(type "KiCad")(uri "${KIPRJMOD}/libraries/jlcpreferred/jlcpreferred.kicad_sym")(options "")(descr ""))
 )
